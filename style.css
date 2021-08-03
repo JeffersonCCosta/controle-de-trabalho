@@ -44,7 +44,7 @@ h1 {
     color: white;
     font-size: 18px;
     padding: 0px 15px;
-    }
+}
 
 ul {
     padding: 0%;
@@ -88,6 +88,7 @@ a:hover {
     text-align: left;
     font-size: 18px;
     border-bottom: 1px black solid;
+    color: #2b6a81;
 }
 
 .selector-for-some-widget {
@@ -97,26 +98,28 @@ a:hover {
 }
 
 label {
-    display: inline-flex;
+    color: #2b6a81;
+    display: block;
+    text-align: center;
 }
 
 select {
-    padding: 4px 60px;
+    color: #2b6a81;
+    padding: 2.5px 39px;
 }
 
 input {
-    display: inline-flex;
-    padding: 4px 5px;
+    color: #2b6a81;
+    margin-left: 5px;
 }
 
 form {
-    width: 100%;
-    height: 100%;
     padding: 15px 0;
     padding-left: 15px;
-    display: block;
+    display: flex;
     text-align: left;
 }
+
 
 /*Restantes das paginas do menu à esqueda*/
 #button {
